@@ -55,4 +55,4 @@ ch.setLevel(logging.INFO)
 ch.setFormatter(formatter)
 logging.getLogger().addHandler(ch)
 
-logging.info(f"Administration credentials: {admin_settings['credentials']}")
+logging.info(f"Administrator credentials: {admin_settings['credentials']}")
